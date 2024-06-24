@@ -2,7 +2,7 @@
 """
 script to connect to a MySQL database and retrieve all rows from the 'states' table printing each row to the console
 """
-import Mysqlclient
+import MySQLdb
 import sys
 
 if __name__ == "__main__":
